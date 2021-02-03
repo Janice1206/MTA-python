@@ -8,10 +8,15 @@ print(10)
 
 name=input("name?")
 printlk("hello",name)
-"""
-up=float(input("上底?"))
-down=float(input("下底?"))
-h=float(input("高?"))
-print((up+down)*h/2)
 
+for j in range(9):
+    for i in range(9):
+        a = i+1
+        b = (i+1)*(j+1)
+        print(a,"*",j+1,"=",b)
         
+"""
+i = 17y
+while i<10:
+    print("*"*i)
+    i+=1
